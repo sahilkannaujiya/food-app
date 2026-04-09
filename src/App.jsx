@@ -14,7 +14,7 @@ export default function App() {
     if(event.key === "Enter"){
       let newFoodItem = event.target.value;
       event.target.value = "";
-      let newItems = [...foods, newFoodItem];
+      let newItems = [newFoodItem, ...foods];
       setFoodState(newItems);
     }
   };
