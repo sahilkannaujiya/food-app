@@ -11,7 +11,7 @@
 .app-name{
   display: flex;
   justify-content: center;
-  background-color: darkorange;
+  background-color: rgb(207, 19, 19);
   color: white;
 
 }
